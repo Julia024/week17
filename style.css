@@ -1,0 +1,16 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(330px, 1fr) );
+    gap: 10px;
+}
+.card {
+    border: 1px solid rgb(108, 102, 102);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.img {
+    max-width: 300px;
+}
